@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('layouts.introduccion');
 });
+
+Route::get('/cap2', function () {
+    return view('cap2');
+});
+
+Route::get('/cap3', function () {
+    return view('cap3');
+});
