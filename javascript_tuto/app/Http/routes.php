@@ -28,3 +28,6 @@ Route::get('/cap2', function () {
 Route::get('/cap3', function () {
     return view('cap3');
 });
+Route::get('/cap5', function () {
+    return view('cap5');
+});
