@@ -31,3 +31,24 @@ Route::get('/cap3', function () {
 Route::get('/cap5', function () {
     return view('cap5');
 });
+
+
+Route::get('/cap6', function () {
+    return view('cap6');
+});
+
+Route::get('/cap7', function () {
+    return view('cap7');
+});
+
+Route::get('/cap8', function () {
+    return view('cap8');
+});
+
+Route::get('/cap9', function () {
+    return view('cap9');
+});
+
+Route::get('/cap10', function () {
+    return view('cap10');
+});
