@@ -52,3 +52,10 @@ Route::get('/cap9', function () {
 Route::get('/cap10', function () {
     return view('cap10');
 });
+
+Route::get('/cap11', function () {
+    return view('cap11');
+});
+Route::get('/cap12', function () {
+    return view('cap12');
+});
