@@ -82,3 +82,7 @@ Route::get('/cap17', function () {
 Route::get('/cap18', function () {
     return view('cap18');
 });
+
+Route::get('/cap19', function () {
+    return view('cap19');
+});
