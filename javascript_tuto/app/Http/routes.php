@@ -102,3 +102,6 @@ Route::get('/cap23', function () {
 Route::get('/cap24', function () {
     return view('cap24');
 });
+Route::get('/cap25', function () {
+    return view('cap25');
+});

@@ -2,39 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cap23 Timers, Timeout e Interval</title>
+    <title>Cap24 Fechas</title>
 
 </head>
 <body>
 
 
 <script>
+    (function (){
+        var fecha = new  Date();
+        document.write(fecha);
 
-    (function(){
+        console.log(fecha.getHours()-12);
+        console.log(fecha.getMinutes());
+        console.log(fecha.getSeconds());
 
-        var contador = 0;
+        console.log(fecha.getDay());
+        console.log(fecha.getDate());
+        console.log(fecha.getMonth());
+        console.log(fecha.getFullYear());
 
-        //Timeout
-
-        var saludo = function(){
-            contador ++;
-            console.log(contador);
-            setTimeout(saludo,1000);
-
-            /*if (contador === 5){
-                clearInterval(intervalo);
-
-            }
-            */
-        };
-        //setTimeout(saludo,3000);
-        //Intervals
-
-       //var intervalo= setInterval(saludo,1000);
-
-        saludo();
 
     }())
+
 
 </script>
 
