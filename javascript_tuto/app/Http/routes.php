@@ -90,3 +90,7 @@ Route::get('/cap19', function () {
 Route::get('/cap20', function () {
     return view('cap20');
 });
+
+Route::get('/cap21', function () {
+    return view('cap21');
+});
