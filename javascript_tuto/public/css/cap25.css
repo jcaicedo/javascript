@@ -1,28 +1,30 @@
 *{
+
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 body{
-    background: url(http://lorempixel.com/1200/900/) #000;
+    background: url(http://lorempixel.com/1200/1200/) #000;
     background-size: cover;
-    color: #fff;
     font-size: 16px;
+    color: #fff;
 }
+
 .wrap{
     width: 90%;
     max-width: 1000px;
     /*margin:auto;*/
-
 }
 
 .widget{
     width: 40%;
     margin: 2em;
-    /*margin:32px;*/
+    /*margin: 32px;*/
 }
 
 .widget p{
@@ -33,12 +35,13 @@ body{
 .fecha{
     font-family: Oswald, Arial;
     text-align: center;
-    font-size:1.5em;
+    font-size: 1.5em;
     margin-bottom: 0.3125rem;
     /*margin-bottom: 5px;*/
     background: rgba(0,0,0,.5);
     padding: 20px;
     width: 100%;
+
 }
 
 .reloj{
@@ -48,17 +51,14 @@ body{
     font-size: 4em;
     text-align: center;
     background: rgba(0,0,0,.5);
-
 }
 
 .reloj .caja-segundos{
-
     display: inline-block;
 }
 
 .reloj .segundos,
 .reloj .ampm{
-
     font-size: 2rem;
     display: block;
 }
