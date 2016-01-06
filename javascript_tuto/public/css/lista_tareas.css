@@ -46,3 +46,23 @@ body{
     padding: 15px;
 
 }
+
+.principal .formulario .boton:hover{
+    border: 1px solid #fff;
+}
+
+/*Tareas*/
+
+.tareas .lista{
+    list-style: none;
+}
+
+.tareas .lista li{
+    border-bottom: 1px solid #B6B6B6;
+}
+.tareas .lista li a{
+    color: #212121;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+}

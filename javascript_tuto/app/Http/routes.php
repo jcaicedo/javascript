@@ -105,3 +105,6 @@ Route::get('/cap24', function () {
 Route::get('/cap25', function () {
     return view('cap25');
 });
+Route::get('/lista_tareas', function () {
+    return view('lista_tareas');
+});
