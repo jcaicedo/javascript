@@ -1,4 +1,6 @@
 var cifra="";
+var acumulado =0;
+var sumar = false;
 
 function display_number(numero){
 
@@ -10,6 +12,19 @@ function display_number(numero){
     }
 
 
+function suma(){
+    acumulado = acumulado+parseInt(cifra);
+    document.getElementById("display").value=acumulado;
+    console.log(acumulado);
+    cifra = "";
+    sumar= true;
+}
 
+function resultado(){
+    if(sumar){
+        document.getElementById("display").value=acumulado+parseInt(cifra);
+    }
+
+}
 
 

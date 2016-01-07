@@ -15,7 +15,7 @@
             <input name="display" type="text" class="color_display" id="display" size="25"></td>
     </tr>
     <tr>
-        <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" ></td>
+        <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" onclick="suma()"></td>
         <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-"></td>
         <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" ></td>
         <td width="32%"><input name="button4" type="button" class="numero" id="button4" value="/" ></td>
@@ -41,11 +41,16 @@
     <tr>
         <td><input name="num0" type="button" class="numero" id="num0" value="0" ></td>
         <td><input name="button17" type="button" class="numero" id="button17" value=","></td>
-        <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" ></td>
+        <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" onclick="resultado()" ></td>
     </tr>
 </table>
 
 
+
 {!! Html::script('js/calculadora.js') !!}
+
+<script>
+    document.getElementById("display").value=0;
+</script>
 </body>
 </html>
