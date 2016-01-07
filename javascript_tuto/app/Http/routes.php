@@ -108,3 +108,7 @@ Route::get('/cap25', function () {
 Route::get('/lista_tareas', function () {
     return view('lista_tareas');
 });
+
+Route::get('/calculadora', function () {
+    return view('calculadora');
+});
