@@ -54,6 +54,7 @@
 
 
     };
+
     var comprobarInput = function(){
             tareaInput.className="";
         tareaInput.setAttribute("placeholder", "Agrega Tu Tarea");

@@ -112,3 +112,19 @@ Route::get('/lista_tareas', function () {
 Route::get('/calculadora', function () {
     return view('calculadora');
 });
+
+Route::get('/tag_manager1', function () {
+    return view('tag_manager1');
+});
+Route::get('/tag_manager2', function () {
+    return view('tag_manager2');
+});
+Route::get('/tag_manager3', function () {
+    return view('tag_manager3');
+});
+Route::get('/tag_manager4', function () {
+    return view('tag_manager4');
+});
+Route::get('/tag_manager5', function () {
+    return view('tag_manager5');
+});
