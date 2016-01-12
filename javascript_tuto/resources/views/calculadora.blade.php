@@ -16,7 +16,7 @@
     </tr>
     <tr>
         <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" onclick="suma()"></td>
-        <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-"></td>
+        <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-" onclick="resta()"></td>
         <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" ></td>
         <td width="32%"><input name="button4" type="button" class="numero" id="button4" value="/" ></td>
     </tr>
