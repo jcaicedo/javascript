@@ -106,7 +106,7 @@ Route::get('/cap25', function () {
     return view('cap25');
 });
 Route::get('/lista_tareas', function () {
-    return view('lista_tareas');
+    return view('Lista_tareas');
 });
 
 Route::get('/calculadora', function () {
